@@ -1,6 +1,6 @@
 {
     "name": "phpzlc/captcha-business",
-    "description": "短信发送组件",
+    "description": "图形验证码组件",
     "license": "MIT",
     "type": "library",
     "keywords": [
