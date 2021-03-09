@@ -1,0 +1,28 @@
+{
+    "name": "phpzlc/sms-business",
+    "description": "短信发送组件",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "phpzlc",
+        "document",
+        "symfony"
+    ],
+    "homepage": "",
+    "authors": [
+        {
+            "name": "jay_he",
+            "email": "hjjhanxing@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPZlc\\CaptchaBusiness\\": "src/"
+        }
+    },
+    "require": {
+        "phpzlc/phpzlc": "1.*",
+        "gregwar/captcha": "1.*"
+    }
+}
