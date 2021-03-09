@@ -1,11 +1,12 @@
 {
-    "name": "phpzlc/sms-business",
+    "name": "phpzlc/captcha-business",
     "description": "短信发送组件",
     "license": "MIT",
     "type": "library",
     "keywords": [
         "phpzlc",
-        "document",
+        "business",
+        "captcha",
         "symfony"
     ],
     "homepage": "",
