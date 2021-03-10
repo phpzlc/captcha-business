@@ -5,13 +5,14 @@
  * Date: 2021/3/9
  */
 
-namespace App\Controller;
+namespace App\Controller\Captcha;
 
 use App\Business\CaptchaBusiness\CaptchaBusiness;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class CaptchaController
+class CaptchaController extends AbstractController
 {
     /**
      * 图形验证码
@@ -19,7 +20,7 @@ class CaptchaController
      * @param Request $request
      * @return Response
      */
-    public function captcha(Request $request)
+    public function generate(Request $request)
     {
         return (new CaptchaBusiness($this->container))->captcha($request->get('captcha', 'captcha'), $request->get('format'));
     }

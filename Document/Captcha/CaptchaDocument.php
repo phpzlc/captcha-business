@@ -1,14 +1,14 @@
 <?php
-
-namespace App\Document;
-
-use PHPZlc\Document\Document;
-
 /**
  * PhpStorm.
  * User: Jay
- * Date: 2021/3/9
+ * Date: 2021/3/10
  */
+
+namespace App\Document\Captcha;
+
+
+use PHPZlc\Document\Document;
 
 class CaptchaDocument extends Document
 {

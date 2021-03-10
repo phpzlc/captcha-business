@@ -40,6 +40,8 @@ class CaptchaBusiness extends AbstractBusiness
         header('Cache-Control: no-cache');
 
         $builder->output();
+
+        return new Response();
     }
 
     /**
