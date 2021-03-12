@@ -28,7 +28,7 @@ class CaptchaDocument extends Document
         $this->add()
             ->setTitle('生成图形验证码')
             ->setUrl('/generate')
-            ->addParam('type', '业务类型', 'string', false, 'captcha', '根据业务中Api说明传参')
+            ->addParam('captcha', '业务类型', 'string', false, 'captcha', '根据业务中Api说明传参')
             ->addParam('format', '图形验证码格式', 'string', true,'', 'base64, 返回base64图形码')
             ->setReturn('image')
             ->generate();
