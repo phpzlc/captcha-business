@@ -1,7 +1,10 @@
 # 图形验证码库
 
 # 安装
+
+```shell
 composer require phpzlc/captcha-business
+```
 
 # 引用
 
