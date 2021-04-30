@@ -6,18 +6,4 @@
 
 ## 技术文档
 
-```shell
-composer require phpzlc/captcha-business
-```
-
-# 项目中引用
-
-`config/routes.yaml`
-
-```yaml
-captcha:
-  resource: "routing/captcha/captcha.yaml"
-  prefix:   /captcha
-```
-
-# 文档
+[技术文档](https://phpzlc.github.io/doc/module/captcha-business)
