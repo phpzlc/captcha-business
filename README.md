@@ -1,6 +1,10 @@
-# 图形验证码业务组件
+## 图形验证码业务组件
 
-# 安装
+## 业务介绍
+
+提供生成图形验证码接口,文档。
+
+## 技术文档
 
 ```shell
 composer require phpzlc/captcha-business
