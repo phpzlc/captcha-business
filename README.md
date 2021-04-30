@@ -1,4 +1,4 @@
-# 图形验证码库
+# 图形验证码业务组件
 
 # 安装
 
@@ -6,7 +6,7 @@
 composer require phpzlc/captcha-business
 ```
 
-# 引用
+# 项目中引用
 
 `config/routes.yaml`
 
@@ -15,3 +15,5 @@ captcha:
   resource: "routing/captcha/captcha.yaml"
   prefix:   /captcha
 ```
+
+# 文档
