@@ -30,7 +30,8 @@ class CaptchaDocument extends Document
             ->setUrl('/generate')
             ->addParam('captcha', '业务类型', 'string', false, 'captcha', '根据业务中Api说明传参')
             ->addParam('format', '图形验证码格式', 'string', true,'', 'base64, 返回base64图形码')
-            ->setReturn('image')
+            ->setReturnType('file')
+            ->setReturn('图片流')
             ->generate();
     }
 }
