@@ -6,4 +6,4 @@
 
 ## 技术文档
 
-[技术文档](https://phpzlc.github.io/doc/module/captcha-business)
+[技术文档](https://phpzlc.com/doc/module/captcha-business)
