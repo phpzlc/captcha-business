@@ -23,7 +23,7 @@
         }
     },
     "require": {
-        "phpzlc/phpzlc": "2.*",
+        "phpzlc/phpzlc": "3.*",
         "gregwar/captcha": "1.*"
     }
 }
